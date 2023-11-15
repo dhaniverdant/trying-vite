@@ -3,3 +3,9 @@ $primary-color: green;
 body {
   background-color: $primary-color;
 }
+
+.action-button:focus,
+.action-button:hover {
+  border: none;
+  outline: none;
+}
